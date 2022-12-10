@@ -1,0 +1,70 @@
+body {
+    background-image: url(assets/images/merry-christmas-red-background.jpg);
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    overflow: hidden;
+    /* position: absolute; */
+}
+
+.card__container {
+    width: 600px;
+    height: 375px;
+    margin: 200px auto 200px;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    border: 3px solid rgba(138, 181, 146, 0.889);
+}
+
+.cards {
+    margin: 15px;
+    border: 1px solid rgb(215, 81, 81);
+    border-radius: 5px;
+}
+
+.card__header {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card__title {
+    margin-left: 25%;
+    height: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    /* display: inline-block; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* height: 20px; */
+    /* margin-top: 0; */
+}
+
+.card__text {
+    margin: 10px;
+    color: rgb(36, 97, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.card__image--regalo {
+    float: right;
+}
+
+footer {
+    margin: 50px 10px 10px 10px;
+    color: rgba(181, 33, 43, 0.744);
+}
+
+.link {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.link:hover {
+    color: red;
+}
+
+
